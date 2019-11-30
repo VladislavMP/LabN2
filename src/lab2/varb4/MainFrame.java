@@ -21,4 +21,16 @@ import javax.swing.JTextField;
 @SuppressWarnings("serial")
 
 public class MainFrame extends JFrame {
+    // Размеры окна приложения
+    private static final int WIDTH = 400;
+    private static final int HEIGHT = 320;
+
+    // Текстовые поля для считывания значений переменных X и Y
+    private JTextField textFieldX;
+    private JTextField textFieldY;
+
+    private JTextField textFieldResult;
+    private ButtonGroup radioButtons = new ButtonGroup();
+    private Box hboxFormulaType = Box.createHorizontalBox();
+    private int formulaId = 1;
 }
